@@ -1,3 +1,9 @@
+
+inventory = []#This will be the inventory where we hold all items (Swords, drops/loot, etc.)
+
+gold = 0 #I decided to keep gold seperate from inventory. This will be used to buy items and gold will be received after killing monsters or selling items
+
+
 #Condensed profile and intro.
 loop = True
 while loop == True
