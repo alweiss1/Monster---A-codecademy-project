@@ -9,4 +9,12 @@ while loop == True
         loop = False
 print "Ok, ", profile, "let's play
 print " You wake up in the middle of the forest with a huge headache. You can't remember anything. You turn over on your other side and groan. Suddenly, you see a huge, hulking figure smash his way into the woods and start attacking at you. He's using a club to hit you."#changed fight to fightOne, as I assume there will be multiple..
+
 fight = raw_input("Do you 'fight back', or just 'dodge'?:   ")
+
+if fight == "fight back"
+print "That was a bad decision. You end up dying without even remembering who you are.
+loop==False
+elif fight == "dodge"
+  print "You rollover, jump up (ignoring the pain) , give the guy a quick spinning snap kick, and then with accuracy so accurate it's scary, you give the guy a two handed chop to the top of his head. The head explodes and out bursts some money. You quickly collect the money, although you have no idea where this type of money is from, and start walking away. After a bit of walking you start to see a town."
+decision = raw_input("Do you walk towards it?")
